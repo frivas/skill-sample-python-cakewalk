@@ -2,7 +2,7 @@ This is a Python version of the Cake Walk Alexa Skill. There is already a NodeJS
 
 There are a few things I would like to point out of this version:
 
-1. There is no official support for S3 in Python’s ASK SDK, so I used one that I wrote sometime ago, you can find it ([here](https://github.com/frivas/alexa-s3-persistence-python)) with a couple of changes:
+1. There is no official support for S3 in Python’s ASK SDK, so I used one that I wrote sometime ago (you can find it [here](https://github.com/frivas/alexa-s3-persistence-python)) with a couple of changes:
 	- I had fixed an error in the function that gets the userID from the *handler_input* object.
 	- I added support for ApiClient to the S3 Persistence module.
 2. The code is not exactly the same as the original sample.
